@@ -20,8 +20,8 @@
 					<section class="banner style3 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>Hi, I'm Jose</h1>
-							<p class="major">I'm a HID Firmware Engineer at Apple working on next-generation audio products.
-								My focus is on Smart Cities, wearables, and other IoT technology. </p>
+							<p class="major">I'm an Engineer at Apple working on next-generation watch and audio products.
+								My focus is on backend, internal tools, and IoT technology. </p>
 							<ul class="actions">
 								<li><a href="#first" class="button big wide primary smooth-scroll-middle">See my Projects</a></li>
 								<li><a href="Jose Level Resume Spring 2024.pdf" target="_blank" class="button big wide primary smooth-scroll-middle">Download my Resume</a></li>
@@ -31,15 +31,54 @@
 							<img src="images/NYC_profile_regular.jpg" alt=" Jose in front of NYC bridge" />
 						</div>
 					</section>
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left fullscreen image-position-center onscroll-image-fade-in" id="second">
+						<div class="content">
+							<h2>Drakes Magazine API</h2>
+							<p>Since November of last year, I've been working on
+								<a href="https://simpleapis-kwgvav7ltq-uc.a.run.app/docs" target="_blank" rel="noopener noreferrer">this</a> API tailored for searching and
+								tagging images sourced from <a href="https://us.drakes.com/" target="_blank" rel="noopener noreferrer" >Drakes</a> menswear magazine and clothing store, ultimately
+								serving them in JSON format. The purpose is to provide a search tool for outfit
+								inspiration from their tailored looks and style. To manage the whole operation on my own,
+								the development pipeline is streamlined with end-to-end continuous integration and
+								deployment practices, which encompass automated testing and adherence to PEP 8 standards
+								through Github Actions and automatic building/deployment and management of Docker
+								containers with Google Cloud Build/Run services.
+								I scrape all images to populate a CDN with the latest photo shoot
+								images from Drakes. Image links are efficiently indexed and tagged within MongoDB, with
+								hosting using Mongo Atlas servers. (P.S. I used the API for the image in this section)  </p>
+						</div>
+						<div class="image">
+							<img src="https://storage.googleapis.com/drakes_lookbooks_bucket/drakes_images/winter-spring-2023-lookbook/image_14.jpg" alt="" />
+						</div>
+					</section>  1
+				<!-- Three -->
+				<section class="spotlight style1 orient-left content-align-left fullscreen image-position-center onscroll-image-fade-in" id="third">
+					<div class="content">
+						<h2>Social Meetup App with FastAPI and React</h2>
+						<p>The inspiration for this app is the feeling when you spontaneously see a friend at a bar or coffee shop without planning anything in advance.
+							The goal is to encourage people to share their in-person activities with friends by posting a pin on the shared map.
+							Others can see the map in their free time and choose to drop in without further back and forth planning.
+							Its backend is built with FastAPI and MySQL, using JWT tokens for authentication and location mapping.
+						 	The frontend is built with React, and Bootstrap for styling with a clean user interface built on top of Mapbox allowing
+							users to see their friend’s activities on the map and join their group.</p>
+					</div>
+					<div class="image">
+						<img src="images/mapbox.jpeg" alt="" />
+					</div>
+				</section>
 
 				<!-- Two -->
-					<section class="spotlight style1 orient-right content-align-left fullscreen image-position-center onscroll-image-fade-in" id="first">
+					<section class="spotlight style1 orient-right content-align-left fullscreen image-position-center onscroll-image-fade-in" id="fourth">
 						<div class="content">
-							<h2>Next-generation Apple Audio Products</h2>
-							<p>I'm part of the Human Interfacing Devices team at Apple where I work on Airpods, Beats, and future audio products.
-								My main role is to support algorithm development, firmware development and user experience studies with everything they need by automating data gathering and bring-up from sensors on prototype devices.
-								I also plan and demo sensor features and automation strategy to executives at new product and status reviews.
-								Within my team, my main focus is automation efforts on ‘in-ear detection’ sensors for audio products, but I also support other human interactive sensors such as Airpod's stem UI.</p>
+							<h2>Next-generation Apple Watch and Audio Products</h2>
+							<p>I'm part of the Human Interfacing Devices team at Apple where I work on Watch, Airpods, Beats,
+								and future products. My main role is to support algorithm development,
+								firmware development and user experience studies with everything they need by automating
+								data gathering and bring-up from sensors on prototype devices.
+								I also plan and demo sensor features and automation strategy at new
+								product and status reviews. Within my team, my main focus is automation efforts on
+								‘in-ear detection’ for audio products and the Watch touch technology, but I also support other features such as Airpod's stem UI and water submersion detection for watch.</p>
 						</div>
 						<div class="image">
 							<img src="images/airpods_pro.png" alt="" />
@@ -47,7 +86,7 @@
 					</section>
 
 					<!-- Three -->
-						<section class="spotlight style1 orient-left content-align-left fullscreen image-position-center onscroll-image-fade-in" id="first">
+						<section class="spotlight style1 orient-left content-align-left fullscreen image-position-center onscroll-image-fade-in" id="fifth">
 						<div class="content">
 							<h2>Using AI to Paint a Podcast</h2>
 							<p>This app uses Assembly AI's speech-to-text API to process podcasts (or any audio) and summarizes them into usable prompts for the stable diffusion art generator.
@@ -61,7 +100,7 @@
 					</section>
 
 					<!-- Four -->
-						<section class="spotlight style1 orient-right content-align-left fullscreen image-position-center onscroll-image-fade-in" id="first">
+						<section class="spotlight style1 orient-right content-align-left fullscreen image-position-center onscroll-image-fade-in" id="sixth">
 						<div class="content">
 							<h2>IoT Beverage Inventory System</h2>
 							<p>The Boozeboy smart speed-rail is an IoT inventory system that monitors real time changes in the volumes of all the bottles currently being used in a bar or restaurant environment.
